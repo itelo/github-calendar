@@ -1,0 +1,17 @@
+.days-of-week-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.day-of-week-container {
+  margin-right: 4px;
+  margin-top: 2px;
+  height: 8px;
+}
+
+.day-of-week-font {
+  font-size: 9px;
+  line-height: 1;
+  margin: 0;
+  color: #586069;
+}

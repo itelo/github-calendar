@@ -1,0 +1,33 @@
+.square {
+  height: 8px;
+  width: 8px;
+  background: rgb(235, 237, 240);
+}
+
+.big-square {
+  height: 10px;
+  width: 10px;
+  background: rgb(235, 237, 240);
+}
+
+.square-container {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.nothing {
+  background: #ebedf0;
+}
+
+.little {
+  background: #c6e48b;
+}
+.moderate {
+  background: #7bc96f;
+}
+.alot {
+  background: #239a3b;
+}
+.most {
+  background: #196127;
+}

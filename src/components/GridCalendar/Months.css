@@ -1,0 +1,11 @@
+.month-font {
+  font-size: 9px;
+  line-height: 1px;
+  margin: 0;
+  color: #586069;
+}
+
+.month-container {
+  position: absolute;
+  top: -12px;
+}

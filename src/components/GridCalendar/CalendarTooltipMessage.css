@@ -1,0 +1,11 @@
+.calendar-tooltip-container {
+  color: #959da5;
+  margin: 0;
+  font-size: 13px;
+  padding: 40;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: #dfe2e5;
+}

@@ -1,0 +1,16 @@
+.calendar-caption-container {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  color: #586069;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar-caption-squares-container {
+  display: flex;
+  flex-direction: row;
+  width: 62px;
+  justify-content: space-between;
+}

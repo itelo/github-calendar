@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Months /> test months passing mocked months 1`] = `
+<div>
+  <div
+    class="month-container"
+    data-testid="month-0"
+    style="left: 20px;"
+  >
+    <p
+      class="month-font"
+    >
+      Jan
+    </p>
+  </div>
+  <div
+    class="month-container"
+    data-testid="month-1"
+    style="left: 60px;"
+  >
+    <p
+      class="month-font"
+    >
+      Feb
+    </p>
+  </div>
+</div>
+`;

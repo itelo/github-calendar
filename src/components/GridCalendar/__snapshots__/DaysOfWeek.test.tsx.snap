@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DaysOfWeek /> test months passing mocked months 1`] = `
+<div>
+  <div
+    class="days-of-week-container"
+  >
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-0"
+      />
+    </div>
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-1"
+      >
+        Mon
+      </p>
+    </div>
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-2"
+      />
+    </div>
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-3"
+      >
+        Wed
+      </p>
+    </div>
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-4"
+      />
+    </div>
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-5"
+      >
+        Fri
+      </p>
+    </div>
+    <div
+      class="day-of-week-container"
+    >
+      <p
+        class="day-of-week-font"
+        data-testid="day-6"
+      />
+    </div>
+  </div>
+</div>
+`;

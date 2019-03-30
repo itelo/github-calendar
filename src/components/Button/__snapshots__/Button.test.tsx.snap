@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> test the active css in button 1`] = `
+<div>
+  <button
+    class="filter-button selected"
+    data-testid="button"
+  >
+    testing-the-button
+  </button>
+</div>
+`;
+
+exports[`<Button /> test the inactive css in button 1`] = `
+<div>
+  <button
+    class="filter-button "
+    data-testid="button"
+  >
+    testing-the-button
+  </button>
+</div>
+`;

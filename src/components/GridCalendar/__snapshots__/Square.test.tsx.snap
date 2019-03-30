@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Square /> test square passing 0, should have class nothing 1`] = `
+<div>
+  <div
+    class="square-container"
+  >
+    <div
+      class="square nothing"
+      data-testid="square-color"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Square /> test square passing CONTRIBUTIONS_ALOT, should have class alot 1`] = `
+<div>
+  <div
+    class="square-container"
+  >
+    <div
+      class="square alot"
+      data-testid="square-color"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Square /> test square passing CONTRIBUTIONS_LITTLE, should have class little 1`] = `
+<div>
+  <div
+    class="square-container"
+  >
+    <div
+      class="square little"
+      data-testid="square-color"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Square /> test square passing CONTRIBUTIONS_MODERATE, should have class moderate 1`] = `
+<div>
+  <div
+    class="square-container"
+  >
+    <div
+      class="square moderate"
+      data-testid="square-color"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Square /> test square passing CONTRIBUTIONS_MOST, should have class most 1`] = `
+<div>
+  <div
+    class="square-container"
+  >
+    <div
+      class="square most"
+      data-testid="square-color"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> snapshot hide tooltip 1`] = `
+<div>
+  <div
+    class="tooltip"
+    data-testid="tooltip"
+  >
+    <div
+      class="tooltip-trigger"
+      data-testid="tooltip-trigger"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Tooltip /> snapshot show tooltip 1`] = `
+<div>
+  <div
+    class="tooltip"
+    data-testid="tooltip"
+  >
+    <div
+      class="tooltip-bubble tooltip-top"
+      data-testid="tooltip-bubble"
+    >
+      <div
+        class="tooltip-message"
+        data-testid="tooltip-message"
+      >
+        MessageText
+      </div>
+    </div>
+    <div
+      class="tooltip-trigger"
+      data-testid="tooltip-trigger"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

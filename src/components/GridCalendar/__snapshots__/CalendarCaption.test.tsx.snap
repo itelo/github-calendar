@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CalendarCaption /> just snapshot 1`] = `
+<div>
+  <div
+    class="calendar-caption-container"
+    data-testid="calendar-caption-container"
+  >
+    Less
+    <div
+      class="calendar-caption-squares-container"
+    >
+      <div
+        class="big-square nothing"
+        data-testid="possibility-0"
+      />
+      <div
+        class="big-square little"
+        data-testid="possibility-14"
+      />
+      <div
+        class="big-square moderate"
+        data-testid="possibility-21"
+      />
+      <div
+        class="big-square alot"
+        data-testid="possibility-28"
+      />
+      <div
+        class="big-square most"
+        data-testid="possibility-35"
+      />
+    </div>
+    More
+  </div>
+</div>
+`;

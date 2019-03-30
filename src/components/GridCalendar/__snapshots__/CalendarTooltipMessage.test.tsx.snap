@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CalendarTooltipMessage /> test CalendarTooltipMessage passing mocked date and contribuitions=0 1`] = `
+<div>
+  <p
+    class="calendar-tooltip-container"
+    data-testid="calendar-tooltip-container"
+  >
+    <span
+      class="bold-text"
+      data-testid="bold-text"
+    >
+      No contributions
+       
+    </span>
+    on Oct 21, 2016
+  </p>
+</div>
+`;
+
+exports[`<CalendarTooltipMessage /> test CalendarTooltipMessage passing mocked date and contribuitions=1 1`] = `
+<div>
+  <p
+    class="calendar-tooltip-container"
+    data-testid="calendar-tooltip-container"
+  >
+    <span
+      class="bold-text"
+      data-testid="bold-text"
+    >
+      1 contribution
+       
+    </span>
+    on Oct 21, 2016
+  </p>
+</div>
+`;
+
+exports[`<CalendarTooltipMessage /> test CalendarTooltipMessage passing mocked date and contribuitions=CONTRIBUTIONS_MOST 1`] = `
+<div>
+  <p
+    class="calendar-tooltip-container"
+    data-testid="calendar-tooltip-container"
+  >
+    <span
+      class="bold-text"
+      data-testid="bold-text"
+    >
+      35
+       contributions
+       
+    </span>
+    on Oct 21, 2016
+  </p>
+</div>
+`;

@@ -1,0 +1,41 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip-trigger {
+  text-decoration: underline;
+}
+
+.tooltip-bubble {
+  min-width: 230px;
+  max-width: 230px;
+  position: absolute;
+  z-index: 10;
+}
+.tooltip-bubble::after {
+  content: "";
+  position: absolute;
+}
+
+.tooltip-top {
+  bottom: 100%;
+  left: 50%;
+  padding-bottom: 5px;
+  transform: translateX(-50%);
+}
+.tooltip-top::after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip-message {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
